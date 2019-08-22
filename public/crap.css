@@ -1,0 +1,177 @@
+body {
+  background-image: url("../public/assets/grass2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  overflow-y: hidden;
+}
+
+h1{
+  color: white;
+  text-align: center;
+  font-size: 100px;
+  font-family: 'Press Start 2P', cursive;
+}
+
+
+#imgAlter{
+  position: fixed;
+  top: 44%;
+  left: 40%;
+
+
+}
+
+#imgAlter:hover {
+
+
+    /* Start the shake animation and make the animation last for 0.5 seconds */
+    animation: shake 5s; 
+  
+    /* When the animation is finished, start again */
+    animation-iteration-count: infinite; 
+  }
+  
+  @keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(7deg); }
+    10% { transform: translate(-1px, -2px) rotate(-7deg); }
+    20% { transform: translate(-3px, 0px) rotate(7deg); }
+    30% { transform: translate(3px, 2px) rotate(-7deg); }
+    40% { transform: translate(1px, -1px) rotate(7deg); }
+    50% { transform: translate(-1px, 2px) rotate(-7deg); }
+    60% { transform: translate(-3px, 1px) rotate(7deg); }
+    70% { transform: translate(3px, 1px) rotate(-7deg); }
+    80% { transform: translate(-1px, -1px) rotate(7deg); }
+    90% { transform: translate(1px, 2px) rotate(-7deg); }
+    100% { transform: translate(1px, -2px) rotate(7deg); }
+  }
+
+
+  /* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  overflow-y: hidden;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Modal Header */
+.modal-header {
+  padding: 20px 16px;
+  background-color: red;
+  color: white;
+  font-family: "Press Start 2P", cursive;
+}
+
+/* Modal Body */
+.modal-body {padding: 2px 16px;}
+
+#search {
+  width: 95%;
+  height: 20px;
+}
+
+.modalBtn{
+  position: fixed;
+  padding: 6px;
+  left: 86.85%;
+  top: 7%;
+}
+
+/* Modal Footer */
+.modal-footer {
+  padding: 400px 16px;
+  background-color: red;
+  color: white;
+  font-family: "Press Start 2P", cursive;
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: white;
+  margin: auto;
+  padding: 0;
+  border: 1px solid #888;
+  width: 80%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+#sprite {
+  height: 350px;
+  width: auto;
+  position: absolute;
+  top: 45%;
+  left: 63%;
+}
+
+.control {
+background-color: black;
+position: absolute;
+width: 350px;
+height: 350px;
+top: 45%;
+left: 63%;
+}
+
+#information {
+  border: 3px solid black;
+  position: absolute;
+  top: 27%;
+  left: 5%;
+}
+
+#hmm {
+  border: 3px solid black;
+  position: absolute;
+  top: 27%;
+  left: 20%;
+}
+
+td, th {
+  padding: 20px;
+}
+th {
+  color: black;
+}
+td {
+  color:white;
+}
+
+#endText {
+  position: absolute;
+  top: 83%;
+  left: 57%;
+  font-size: 28px;
+}
