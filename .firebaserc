@@ -1,5 +1,6 @@
 {
   "projects": {
-    "default": "catchemall-89e3a"
+    "default": "catchemall-89e3a",
+    "pokedexsearch": "pokedexsearch"
   }
 }
